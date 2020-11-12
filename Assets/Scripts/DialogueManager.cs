@@ -27,17 +27,17 @@ public class DialogueManager : MonoBehaviour
     
     void Start()
     {
-        dialogueUI.SetActive(false);
+        //dialogueUI.SetActive(false);
 
 
     }
 
-    void OnMouseOver()
+    void Update ()
     {
         distance = Vector3.Distance(player.transform.position, this.transform.position);
         if(distance <= 10f)
         {
-            if(Input.GetAxis("Mouse ScrollWheel") < 0f)
+            if(/*Input.GetAxis("Mouse ScrollWheel") < 0f*/Input.GetKeyDown(KeyCode.J))
             {
                 currentResponseTracker++;
                 if(currentResponseTracker >= npc.playerDialogue.Length - 1)
@@ -45,7 +45,7 @@ public class DialogueManager : MonoBehaviour
                     currentResponseTracker = npc.playerDialogue.Length - 1;
                 }
             }
-            else if(Input.GetAxis("Mouse ScrollWhleel") > 0f)
+            else if(/*Input.GetAxis("Mouse ScrollWhleel") > 0f*/Input.GetKeyDown(KeyCode.K))
             {
                 currentResponseTracker--;
                 if(currentResponseTracker < 0)
