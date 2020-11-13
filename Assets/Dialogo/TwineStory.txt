@@ -8,19 +8,28 @@ Test
 
 
 :: Inicio[START]
-Primer pedazo
+Sí, mi nombre es XXXX y desde hace unos días siento una XXXX que no me deja tranquilo/a.
 
-Hello[[1]]
-Ola[[2]]
+Exactamente cuánto tiempo lleva sucediendo?[[1]]
+Ha tomado algo para la XXXX?[[2]]
+Que otros síntomas se siente?[[3]]
 
 :: 1
-Gnial
-Finalizar[[End]]
+Hace XX Días.
+Gracias por la información. (Vuelta anterior)[[A]]
 
 :: 2
-Claro
-Finalizar[[End]]
+Solo XXX por ahora. / No he tomado nada.
+Entiendo. (Vuelta anterior)[[A]]
 
-:: End
+
+:: End[END]
 Double-click this passage to edit it.
-[[end]]
+
+:: 3
+También me ha XXXXX  de manera intermitente.
+Gracias por la información. (Vuelta anterior)[[A]]
+
+:: A
+Cree que puede ser algo serio, Doctor/a?
+No. [[End]]
