@@ -1,0 +1,26 @@
+:: StoryTitle
+Test
+
+:: UserScript[script]
+
+
+:: UserStylesheet[stylesheet]
+
+
+:: Inicio[START]
+Primer pedazo
+
+Hello[[1]]
+Ola[[2]]
+
+:: 1
+Gnial
+Finalizar[[End]]
+
+:: 2
+Claro
+Finalizar[[End]]
+
+:: End
+Double-click this passage to edit it.
+[[end]]
