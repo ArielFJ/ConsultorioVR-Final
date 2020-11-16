@@ -19544,7 +19544,23 @@ PrefabInstance:
       propertyPath: persona
       value: 
       objectReference: {fileID: 68955190}
-    m_RemovedComponents: []
+    - target: {fileID: 3173407388758194521, guid: b4b752a0f01627c4ba1e7bda8198b600,
+        type: 3}
+      propertyPath: m_fontSizeMax
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3173407388758194521, guid: b4b752a0f01627c4ba1e7bda8198b600,
+        type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3173407388758194521, guid: b4b752a0f01627c4ba1e7bda8198b600,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 20
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 2363084569971379385, guid: b4b752a0f01627c4ba1e7bda8198b600, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: b4b752a0f01627c4ba1e7bda8198b600, type: 3}
 --- !u!33 &3097644480021463893
 MeshFilter:
