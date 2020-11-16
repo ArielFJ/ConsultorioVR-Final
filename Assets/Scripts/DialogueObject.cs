@@ -1,13 +1,15 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class DialogueObject
 {
     private const string kStart = "START";
     private const string kEnd = "END";
-
+    private List<String> kTag = new List<String>(Enum.GetNames(typeof(Sintomas)));
+    
     public struct Response
     {
         public string displayText;
