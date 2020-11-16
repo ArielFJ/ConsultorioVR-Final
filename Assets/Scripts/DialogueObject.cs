@@ -1,12 +1,15 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class DialogueObject
 {
     private const string kStart = "START";
     private const string kEnd = "END";
+
+
 
     public struct Response
     {
@@ -19,6 +22,9 @@ public class DialogueObject
             destinationNode = destination;
         }
     }
+    
+
+   
 
     public class Node
     {
@@ -42,14 +48,34 @@ public class DialogueObject
 
     public class Dialogue
     {
+        private List<Sintomas> ListaSintomas;
+        private List<Sintomas> AlmacenPalabras;
+        private string LineaDialogo;
+        private Sintomas DialogoConvertidoASintoma;
+        public GameObject[] ContenedorUISintomas;
         string title;
         Dictionary<string, Node> nodes;
         string titleOfStartNode;
+
+        public void Awake()
+        {
+            ListaSintomas = new List<Sintomas>();
+            AlmacenPalabras = new List<Sintomas>();
+
+
+        }
+
+
+        void Start()
+        {
+            ContenedorUISintomas = GameObject.FindGameObjectsWithTag("Sintoma");
+        }
         public Dialogue(TextAsset twineText)
         {
             nodes = new Dictionary<string, Node>();
             ParseTwineText(twineText);
         }
+
 
         public Node GetNode(string nodeTitle)
         {
@@ -102,6 +128,7 @@ public class DialogueObject
                 string tags = tagsPresent
                     ? currLineText.Substring(titleEnd + 1, (endOfFirstLine - titleEnd) - 2)
                     : "";
+                CheckTaskboard(tags);
 
                 // Extract Message Text & Responses
                 string messsageText = currLineText.Substring(endOfFirstLine, startOfResponses - endOfFirstLine).Trim();
@@ -151,6 +178,30 @@ public class DialogueObject
 
                 nodes[curNode.title] = curNode;
             }
+        }
+
+        public void CheckTaskboard(string tag)
+        {
+
+            LineaDialogo = tag.Remove(tag.FirstOrDefault()).Remove(tag.LastOrDefault());
+            DialogoConvertidoASintoma = (Sintomas)Enum.Parse(typeof(Sintomas), LineaDialogo, true);
+
+            if (ListaSintomas.Contains(DialogoConvertidoASintoma))
+            {
+                AlmacenPalabras.Add(DialogoConvertidoASintoma);
+                for (var i = 0; i < ContenedorUISintomas.Count(); i++)
+                {
+                    for (var j = 0; j < ContenedorUISintomas.Count(); j++)
+                    {
+                        if (ContenedorUISintomas[i].name.Equals(AlmacenPalabras[j]))
+                        {
+                            ContenedorUISintomas[i].SetActive(true);
+                        }
+                    }
+
+                }
+            }
+
         }
     }
 }

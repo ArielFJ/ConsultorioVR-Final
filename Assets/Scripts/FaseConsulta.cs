@@ -12,9 +12,10 @@ public class FaseConsulta : MonoBehaviour
 
     private List<Sintomas> ListaSintomas;
     private List<Sintomas> AlmacenPalabras;
-    private string[] LineaDialogo;
-    private Sintomas[] DialogoConvertidoASintoma;
-    
+    private string LineaDialogo;
+    private Sintomas DialogoConvertidoASintoma;
+    public NPC npc;
+
     public TextMeshProUGUI npcName;
     public TextMeshProUGUI npcDialogue;
     public TextMeshProUGUI playerResponse;
@@ -23,7 +24,7 @@ public class FaseConsulta : MonoBehaviour
     public GameObject CheckFalse;
     public GameObject SintomaDetectado;
     public GameObject[] ContenedorUISintomas;
-    public NPC npc;
+   
 
     public void Awake()
     {
@@ -97,19 +98,15 @@ public class FaseConsulta : MonoBehaviour
         }
     }
 
-    public void CheckTaskboard(string respuestaPaciente)
+    public void CheckTaskboard(string tag)
     {
-        LineaDialogo = respuestaPaciente.ToString().Split(' ');
-        DialogoConvertidoASintoma = LineaDialogo.Select(a => (Sintomas)Enum.Parse(typeof(Sintomas), a, true))
-                        .Cast<Sintomas>()
-                        .ToArray();
 
+        LineaDialogo = tag.Remove(tag.FirstOrDefault()).Remove(tag.LastOrDefault());
+        DialogoConvertidoASintoma = (Sintomas)Enum.Parse(typeof(Sintomas), LineaDialogo, true);
 
-        foreach (Sintomas palabra in DialogoConvertidoASintoma)
-        {
-            if (ListaSintomas.Contains(palabra))
+            if (ListaSintomas.Contains(DialogoConvertidoASintoma))
             {
-                AlmacenPalabras.Add(palabra);
+                AlmacenPalabras.Add(DialogoConvertidoASintoma);
                 for (var i = 0; i < ContenedorUISintomas.Count(); i++)
                 {
                     for (var j = 0; j < ContenedorUISintomas.Count(); j++)
@@ -122,6 +119,6 @@ public class FaseConsulta : MonoBehaviour
 
                 }
             }
-        }
+        
     }
 }
