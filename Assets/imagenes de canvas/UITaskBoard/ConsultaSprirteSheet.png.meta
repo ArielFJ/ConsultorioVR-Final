@@ -1,7 +1,73 @@
 fileFormatVersion: 2
 guid: fc10fd896b691ab439577cebae13b333
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 546347135783793232
+    second: ConsultaSprirteSheet_0
+  - first:
+      213: -5433825660953773473
+    second: ConsultaSprirteSheet_1
+  - first:
+      213: 747824667952660519
+    second: ConsultaSprirteSheet_2
+  - first:
+      213: -7470278052334194598
+    second: ConsultaSprirteSheet_3
+  - first:
+      213: 7514587660031879113
+    second: ConsultaSprirteSheet_4
+  - first:
+      213: -1792207929772987608
+    second: ConsultaSprirteSheet_5
+  - first:
+      213: -5298210875929943343
+    second: ConsultaSprirteSheet_6
+  - first:
+      213: -8026600168910478438
+    second: ConsultaSprirteSheet_7
+  - first:
+      213: -3192278839080760941
+    second: ConsultaSprirteSheet_8
+  - first:
+      213: 8324173098316497031
+    second: ConsultaSprirteSheet_9
+  - first:
+      213: -6033119408366499331
+    second: ConsultaSprirteSheet_10
+  - first:
+      213: -6403397882475236402
+    second: ConsultaSprirteSheet_11
+  - first:
+      213: -8427648365214568357
+    second: ConsultaSprirteSheet_12
+  - first:
+      213: -6150408643694259621
+    second: ConsultaSprirteSheet_13
+  - first:
+      213: -2479306814936546326
+    second: ConsultaSprirteSheet_14
+  - first:
+      213: -1823746507627033619
+    second: ConsultaSprirteSheet_15
+  - first:
+      213: -8964731725278580328
+    second: ConsultaSprirteSheet_16
+  - first:
+      213: -1309294496869161057
+    second: ConsultaSprirteSheet_17
+  - first:
+      213: -8051603612432728782
+    second: ConsultaSprirteSheet_18
+  - first:
+      213: -7631429798828811310
+    second: ConsultaSprirteSheet_19
+  - first:
+      213: 78662089993051840
+    second: ConsultaSprirteSheet_20
+  - first:
+      213: -7612869007491688827
+    second: ConsultaSprirteSheet_21
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +107,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -99,7 +165,196 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: ConsultaSprirteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1923
+        width: 1587
+        height: 177
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9320025ca9cb9090800000000000000
+      internalID: -8026600168910478438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ConsultaSprirteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 1401
+        width: 546
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 399489c2f4fb2b3d0800000000000000
+      internalID: -3192278839080760941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ConsultaSprirteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 1404
+        width: 546
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 780840e5457658370800000000000000
+      internalID: 8324173098316497031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ConsultaSprirteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 933
+        width: 546
+        height: 467
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df9ccc8ecdd064ca0800000000000000
+      internalID: -6033119408366499331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ConsultaSprirteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 923
+        width: 546
+        height: 467
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec333937d8f8227a0800000000000000
+      internalID: -6403397882475236402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ConsultaSprirteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 632
+        width: 795
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89178183effd69380800000000000000
+      internalID: -8964731725278580328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ConsultaSprirteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 389
+        width: 795
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23df1b87c25f24090800000000000000
+      internalID: -8051603612432728782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ConsultaSprirteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 101
+        width: 175
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ce535b01c6771100800000000000000
+      internalID: 78662089993051840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ConsultaSprirteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 104
+        width: 173
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58690eee8f7a95690800000000000000
+      internalID: -7612869007491688827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

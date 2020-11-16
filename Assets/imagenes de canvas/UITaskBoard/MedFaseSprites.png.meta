@@ -1,7 +1,148 @@
 fileFormatVersion: 2
 guid: b03f07f56a0d2ed4bafb124fecf8c821
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -3452289684253861892
+    second: MedFaseSprites_0
+  - first:
+      213: -390277828721428337
+    second: MedFaseSprites_1
+  - first:
+      213: 3552069763931402503
+    second: MedFaseSprites_2
+  - first:
+      213: -8331877432053546876
+    second: MedFaseSprites_3
+  - first:
+      213: -5276620133179933475
+    second: MedFaseSprites_4
+  - first:
+      213: 5784889574817340794
+    second: MedFaseSprites_5
+  - first:
+      213: 32239486908161101
+    second: MedFaseSprites_6
+  - first:
+      213: -6448557980732042643
+    second: MedFaseSprites_7
+  - first:
+      213: 5131393736076810598
+    second: MedFaseSprites_8
+  - first:
+      213: 4736674183749224321
+    second: MedFaseSprites_9
+  - first:
+      213: -9040573863347255044
+    second: MedFaseSprites_10
+  - first:
+      213: 8280149146575519129
+    second: MedFaseSprites_11
+  - first:
+      213: 5434913876488706477
+    second: MedFaseSprites_12
+  - first:
+      213: -5118794000000839709
+    second: MedFaseSprites_13
+  - first:
+      213: -5661309441100280532
+    second: MedFaseSprites_14
+  - first:
+      213: -1353410352993917729
+    second: MedFaseSprites_15
+  - first:
+      213: -4485589799092544824
+    second: MedFaseSprites_16
+  - first:
+      213: -746587479389966586
+    second: MedFaseSprites_17
+  - first:
+      213: 6131633599472120145
+    second: MedFaseSprites_18
+  - first:
+      213: -4616753678296027501
+    second: MedFaseSprites_19
+  - first:
+      213: 3285760120399661456
+    second: MedFaseSprites_20
+  - first:
+      213: 2090858792867964415
+    second: MedFaseSprites_21
+  - first:
+      213: -3385190982439858190
+    second: MedFaseSprites_22
+  - first:
+      213: -397988501210129992
+    second: MedFaseSprites_23
+  - first:
+      213: -6816334037084256828
+    second: MedFaseSprites_24
+  - first:
+      213: 7571998180508443711
+    second: MedFaseSprites_25
+  - first:
+      213: -7523767776331296796
+    second: MedFaseSprites_26
+  - first:
+      213: 6677968625701514247
+    second: MedFaseSprites_27
+  - first:
+      213: 49533798036712766
+    second: MedFaseSprites_28
+  - first:
+      213: 4792675545753216726
+    second: MedFaseSprites_29
+  - first:
+      213: 6844083959753354545
+    second: MedFaseSprites_30
+  - first:
+      213: 2922732015074778040
+    second: MedFaseSprites_31
+  - first:
+      213: -3723422605722512295
+    second: MedFaseSprites_32
+  - first:
+      213: -5434381509945916643
+    second: MedFaseSprites_33
+  - first:
+      213: 5509686092298323484
+    second: MedFaseSprites_34
+  - first:
+      213: -2711273695017903615
+    second: MedFaseSprites_35
+  - first:
+      213: 5137328856223435318
+    second: MedFaseSprites_36
+  - first:
+      213: 1031510648192518236
+    second: MedFaseSprites_37
+  - first:
+      213: 8479850228057288963
+    second: MedFaseSprites_38
+  - first:
+      213: 1521704541003137424
+    second: MedFaseSprites_39
+  - first:
+      213: -435491303119617437
+    second: MedFaseSprites_40
+  - first:
+      213: -5303499274880183140
+    second: MedFaseSprites_41
+  - first:
+      213: -3828504098298244269
+    second: MedFaseSprites_42
+  - first:
+      213: -6675895191332949847
+    second: MedFaseSprites_43
+  - first:
+      213: 7701405030629112992
+    second: MedFaseSprites_44
+  - first:
+      213: -1063656517735245467
+    second: MedFaseSprites_45
+  - first:
+      213: -3407385710300959867
+    second: MedFaseSprites_46
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +182,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -99,7 +240,154 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: MedFaseSprites_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1938
+        width: 1587
+        height: 169
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d62d4f4beae1286a0800000000000000
+      internalID: -6448557980732042643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MedFaseSprites_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1767
+        width: 793
+        height: 161
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 669d5896a6f563740800000000000000
+      internalID: 5131393736076810598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MedFaseSprites_10
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 1290
+        width: 574
+        height: 455
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf8818568fd698280800000000000000
+      internalID: -9040573863347255044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MedFaseSprites_11
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 1294
+        width: 577
+        height: 449
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99d33e857cff8e270800000000000000
+      internalID: 8280149146575519129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MedFaseSprites_44
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 101
+        width: 175
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0acfd025213e0ea60800000000000000
+      internalID: 7701405030629112992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MedFaseSprites_45
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 104
+        width: 173
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5699c5958022d31f0800000000000000
+      internalID: -1063656517735245467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MedFaseSprites_0
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 1768
+        width: 792
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf79d4cb2d00710d0800000000000000
+      internalID: -3452289684253861892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

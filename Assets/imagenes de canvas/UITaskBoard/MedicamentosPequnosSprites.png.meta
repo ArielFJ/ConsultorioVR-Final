@@ -1,7 +1,31 @@
 fileFormatVersion: 2
 guid: 68465aeff7c0e6d46939c8148b9c741a
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 5669407870222055343
+    second: MedicamentosPequnosSprites_0
+  - first:
+      213: -3824996888344593217
+    second: MedicamentosPequnosSprites_1
+  - first:
+      213: -3124868901472808719
+    second: MedicamentosPequnosSprites_2
+  - first:
+      213: -7837838400124485733
+    second: MedicamentosPequnosSprites_3
+  - first:
+      213: -1809966241522072992
+    second: MedicamentosPequnosSprites_4
+  - first:
+      213: 7427386622772649601
+    second: MedicamentosPequnosSprites_5
+  - first:
+      213: -8445631266772219287
+    second: MedicamentosPequnosSprites_6
+  - first:
+      213: -8851271243729047592
+    second: MedicamentosPequnosSprites_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +65,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -99,7 +123,175 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: MedicamentosPequnosSprites_0
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 1561
+        width: 265
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa7b36f8b68cdae40800000000000000
+      internalID: 5669407870222055343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MedicamentosPequnosSprites_1
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 1561
+        width: 185
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbcfe338891eaeac0800000000000000
+      internalID: -3824996888344593217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MedicamentosPequnosSprites_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1078
+        width: 181
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f05c065a4c32a4d0800000000000000
+      internalID: -3124868901472808719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MedicamentosPequnosSprites_3
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 1078
+        width: 171
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9ff9a170876a3390800000000000000
+      internalID: -7837838400124485733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MedicamentosPequnosSprites_4
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 1178
+        width: 45
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 062c0aefa45b1e6e0800000000000000
+      internalID: -1809966241522072992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MedicamentosPequnosSprites_5
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 1078
+        width: 74
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18e1adb08c0631760800000000000000
+      internalID: 7427386622772649601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MedicamentosPequnosSprites_6
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 565
+        width: 281
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96a0c181c171bca80800000000000000
+      internalID: -8445631266772219287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MedicamentosPequnosSprites_7
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 568
+        width: 289
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8df66ea23b7f92580800000000000000
+      internalID: -8851271243729047592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
