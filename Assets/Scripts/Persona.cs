@@ -18,23 +18,23 @@ public class Persona : MonoBehaviour
 
     private void Start()
     {
-        alergiasCliente = new Alergia[2];
-        // Ciclo para agregar 2 alergias de manera aleatoria al arreglo.
-        for (int i = 0; i < 2; i++)
-        {
-            Alergia primeraAlergia = (Alergia)UnityEngine.Random.Range(0, Enum.GetNames(typeof(Alergia)).Length);
+        //alergiasCliente = new Alergia[2];
+        //// Ciclo para agregar 2 alergias de manera aleatoria al arreglo.
+        //for (int i = 0; i < 2; i++)
+        //{
+        //    Alergia primeraAlergia = (Alergia)UnityEngine.Random.Range(0, Enum.GetNames(typeof(Alergia)).Length);
 
-            if (!alergiasCliente.Contains(primeraAlergia))
-            {
-                alergiasCliente[i] = primeraAlergia;
-            }
-            else
-            {
-                i--;
-            }
+        //    if (!alergiasCliente.Contains(primeraAlergia))
+        //    {
+        //        alergiasCliente[i] = primeraAlergia;
+        //    }
+        //    else
+        //    {
+        //        i--;
+        //    }
 
 
-        }
+        //}
     }
 
 }
