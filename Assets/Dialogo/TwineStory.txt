@@ -7,8 +7,8 @@ Test
 :: UserStylesheet[stylesheet]
 
 
-:: Inicio[START]
-Sí, mi nombre es Jeff y desde hace unos días siento una Tos que no me deja tranquilo/a.[Tos]
+:: Inicio[START Tos]
+Sí, mi nombre es Jeff y desde hace unos días siento una Tos que no me deja tranquilo/a.
 
 Exactamente cuánto tiempo lleva sucediendo?[[1]]
 Ha tomado algo para la Tos?[[2]]
@@ -26,8 +26,8 @@ Entiendo. (Vuelta anterior)[[A]]
 :: End[END]
 Double-click this passage to edit it.
 
-:: 3
-También me ha dado Fiebre  de manera intermitente.[Fiebre]
+:: 3[Fiebre]
+También me ha dado Fiebre  de manera intermitente.
 Gracias por la información. (Vuelta anterior)[[A]]
 
 :: A
