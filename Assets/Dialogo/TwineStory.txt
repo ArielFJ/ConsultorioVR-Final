@@ -8,7 +8,7 @@ Test
 
 
 :: Inicio[START]
-Sí, mi nombre es Jeff y desde hace unos días siento una Tos que no me deja tranquilo/a.
+Sí, mi nombre es Jeff y desde hace unos días siento una Tos que no me deja tranquilo/a.[Tos]
 
 Exactamente cuánto tiempo lleva sucediendo?[[1]]
 Ha tomado algo para la Tos?[[2]]
@@ -27,7 +27,7 @@ Entiendo. (Vuelta anterior)[[A]]
 Double-click this passage to edit it.
 
 :: 3
-También me ha dado Fiebre  de manera intermitente.
+También me ha dado Fiebre  de manera intermitente.[Fiebre]
 Gracias por la información. (Vuelta anterior)[[A]]
 
 :: A

@@ -48,28 +48,16 @@ public class DialogueObject
 
     public class Dialogue
     {
-        private List<Sintomas> ListaSintomas;
-        private List<Sintomas> AlmacenPalabras;
+        private Sintomas[] ListaSintomas= new Sintomas[16];
+        private List<string> AlmacenPalabras = new List<string>();
         private string LineaDialogo;
         private Sintomas DialogoConvertidoASintoma;
-        public GameObject[] ContenedorUISintomas;
+        public GameObject[] ContenedorUISintomas= GameObject.FindGameObjectsWithTag("Sintoma");
         string title;
         Dictionary<string, Node> nodes;
         string titleOfStartNode;
 
-        public void Awake()
-        {
-            ListaSintomas = new List<Sintomas>();
-            AlmacenPalabras = new List<Sintomas>();
 
-
-        }
-
-
-        void Start()
-        {
-            ContenedorUISintomas = GameObject.FindGameObjectsWithTag("Sintoma");
-        }
         public Dialogue(TextAsset twineText)
         {
             nodes = new Dictionary<string, Node>();
@@ -183,12 +171,12 @@ public class DialogueObject
         public void CheckTaskboard(string tag)
         {
 
-            LineaDialogo = tag.Remove(tag.FirstOrDefault()).Remove(tag.LastOrDefault());
-            DialogoConvertidoASintoma = (Sintomas)Enum.Parse(typeof(Sintomas), LineaDialogo, true);
-
-            if (ListaSintomas.Contains(DialogoConvertidoASintoma))
+            LineaDialogo = tag;
+            //DialogoConvertidoASintoma = (Sintomas)Enum.Parse(typeof(Sintomas), LineaDialogo, true);
+            
+            if (ListaSintomas.ToString().Contains(LineaDialogo))
             {
-                AlmacenPalabras.Add(DialogoConvertidoASintoma);
+                AlmacenPalabras.Add(LineaDialogo);
                 for (var i = 0; i < ContenedorUISintomas.Count(); i++)
                 {
                     for (var j = 0; j < ContenedorUISintomas.Count(); j++)
