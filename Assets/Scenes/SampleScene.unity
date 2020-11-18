@@ -1059,13 +1059,13 @@ GameObject:
   m_Component:
   - component: {fileID: 379267276}
   - component: {fileID: 379267275}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Frente
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!65 &379267275
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1087,7 +1087,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 379267274}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.4120839, y: -0.10994083, z: -0.7536465}
+  m_LocalPosition: {x: 0.38, y: -0.10994083, z: -0.85}
   m_LocalScale: {x: 5.945979, y: 4.795965, z: 0.85623884}
   m_Children: []
   m_Father: {fileID: 1479819756}
@@ -3943,6 +3943,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 400008, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.34
+      objectReference: {fileID: 0}
     - target: {fileID: 11400010, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -3987,7 +3991,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_EventMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 51
   sortOrder: 0
 --- !u!114 &1590001452 stripped
 MonoBehaviour:
