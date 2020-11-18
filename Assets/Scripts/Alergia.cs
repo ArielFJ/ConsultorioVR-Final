@@ -13,6 +13,8 @@ public enum Alergia
     Ibuprofeno,
     Almendra,
     Polvo,
-    Flores
+    Flores,
+    Paracetamol,
+    Aspirina
     // Pueden agregar cualquier otra alergia
 }

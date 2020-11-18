@@ -9,12 +9,21 @@ public class Medicamento : MonoBehaviour
     public List<Alergia> Alergias;
 
     // Métodos de medicamento
-    public bool TieneEfectosPositivos(Enfermedad enfermedad)
+    public bool TieneEfectosPositivos(Enfermedad enfermedad, out List<Sintomas> sintomasAfectados)
     {
-        return false;
+        sintomasAfectados = new List<Sintomas>();
+        foreach(Sintomas s in this.Sintomas)
+        {
+            if (enfermedad.SintomasVerdaderos.Contains(s))
+            {
+                sintomasAfectados.Add(s);
+            }
+        }
+        
+        return sintomasAfectados.Count > 0 ? true : false;
     }
 
-    public bool TieneEfectosNegativos(Enfermedad enfermedad)
+    public bool TieneEfectosNegativos(Enfermedad enfermedad) 
     {
         return false;
     }

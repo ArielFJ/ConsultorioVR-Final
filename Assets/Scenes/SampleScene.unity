@@ -3745,7 +3745,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd0d125ce3a39c40a8f141878ad58a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  alergiasCliente: 
+  alergiasCliente: 0600000007000000
   Nombre: Jose Lopez
   Edad: 25
   Sexo: 77
