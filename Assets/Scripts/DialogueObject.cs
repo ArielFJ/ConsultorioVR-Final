@@ -116,7 +116,7 @@ public class DialogueObject
                 string tags = tagsPresent
                     ? currLineText.Substring(titleEnd + 1, (endOfFirstLine - titleEnd) - 2)
                     : "";
-                //CheckTaskboard(tags);
+                CheckTaskboard(tags);
 
                 // Extract Message Text & Responses
                 string messsageText = currLineText.Substring(endOfFirstLine, startOfResponses - endOfFirstLine).Trim();
@@ -168,7 +168,7 @@ public class DialogueObject
             }
         }
 
-        /*public void CheckTaskboard(string tag)
+        public void CheckTaskboard(string tag)
         {
 
             LineaDialogo = tag;
@@ -190,6 +190,6 @@ public class DialogueObject
                 }
             }
 
-        }*/
+        }
     }
 }
