@@ -7,7 +7,7 @@ using UnityEngine;
 public class Persona : MonoBehaviour
 {
 
-    public Alergia[] alergiasCliente;
+    public List<Alergia> alergiasCliente;
     public string Nombre = "Jose Lopez";
     public int Edad = 25;
     public char Sexo = 'M';
