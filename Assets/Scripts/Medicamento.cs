@@ -23,13 +23,20 @@ public class Medicamento : MonoBehaviour
         return sintomasAfectados.Count > 0 ? true : false;
     }
 
-    public bool TieneEfectosNegativos(Enfermedad enfermedad) 
+    public bool TieneEfectosNegativos(Enfermedad enfermedad) // No se implementara sintomas falsos por ahora
     {
         return false;
     }
 
     public bool CausaEfectosNegativosAPaciente(Persona persona)
-    {
+    {        
+        foreach (Alergia a in Alergias)
+        {
+            if (persona.alergiasCliente.Contains(a))
+            {
+                return true;
+            }
+        }
         return false;
     }
 }
