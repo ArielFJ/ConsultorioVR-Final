@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Medicamento : MonoBehaviour
+[CreateAssetMenu(menuName ="Scriptable Objects/Medicamento")]
+public class Medicamento : ScriptableObject
 {
     public string Nombre;
     public List<Sintomas> Sintomas;

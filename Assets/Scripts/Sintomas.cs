@@ -20,5 +20,6 @@ public enum Sintomas
     DificultadParaRespirar,
     Nauseas,
     Diarrea,
-    Mucosidad
+    Mucosidad,
+    DolorMuscular
 }
