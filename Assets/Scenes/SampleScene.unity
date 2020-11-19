@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4366757, g: 0.48427194, b: 0.5645252, a: 1}
+  m_IndirectSpecularColor: {r: 0.43667546, g: 0.48427135, b: 0.5645225, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -8772,7 +8772,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73f2fcd36976e23459d6dac79ef7904e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  persona: {fileID: 68955190}
+  persona: {fileID: 1569196992}
   TextNombre: {fileID: 846599256410706371}
   TextEdad: {fileID: 846599256370855966}
   TextSexo: {fileID: 846599256729230752}
