@@ -14,7 +14,7 @@ public class Persona : MonoBehaviour
     public string Peso = "180.0lb";
     public string Altura = "1.80m";
     public string TipoSangre = "+A";
-
+    public Enfermedad enfermedad;
 
     private void Start()
     {

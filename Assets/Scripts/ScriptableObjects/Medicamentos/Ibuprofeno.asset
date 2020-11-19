@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: edd2d025ccc1efe4288a09bf321c1ec0, type: 3}
   m_Name: Ibuprofeno
   m_EditorClassIdentifier: 
-  Nombre: 
+  Nombre: Ibuprofeno
   Sintomas: 
   Alergias: 
