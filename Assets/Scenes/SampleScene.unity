@@ -368,7 +368,7 @@ MonoBehaviour:
   Peso: 180.0lb
   Altura: 1.80m
   TipoSangre: +A
-  enfermedad: {fileID: 0}
+  Enfermedad: {fileID: 0}
 --- !u!4 &68955191
 Transform:
   m_ObjectHideFlags: 0
@@ -3688,7 +3688,7 @@ MonoBehaviour:
   Peso: 180.0lb
   Altura: 1.80m
   TipoSangre: +A
-  enfermedad: {fileID: 11400000, guid: a232a90645ad2364ab648a356b46b0fb, type: 2}
+  Enfermedad: {fileID: 11400000, guid: a232a90645ad2364ab648a356b46b0fb, type: 2}
 --- !u!1 &1579028271
 GameObject:
   m_ObjectHideFlags: 0
@@ -5467,6 +5467,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2121668808}
+  - component: {fileID: 2121668809}
   m_Layer: 0
   m_Name: -----Managers---------
   m_TagString: Untagged
@@ -5488,6 +5489,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2121668809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2121668807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c91b668932724a249936fbb6241e885b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  medicamentos:
+  - {fileID: 11400000, guid: ac1bc900b614dfd43b2727b4d4f51855, type: 2}
+  - {fileID: 11400000, guid: 3b0b46f408571ad409cf79be9e6dda43, type: 2}
+  - {fileID: 11400000, guid: b8b21069db6e8b04db718ba1855651a5, type: 2}
+  - {fileID: 11400000, guid: 8f2c9894865133a49a592594fdccf4ab, type: 2}
+  paciente: {fileID: 1569196992}
 --- !u!1 &2127892156
 GameObject:
   m_ObjectHideFlags: 0

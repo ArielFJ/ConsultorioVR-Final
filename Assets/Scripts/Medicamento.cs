@@ -6,8 +6,8 @@ using UnityEngine;
 public class Medicamento : ScriptableObject
 {
     public string Nombre;
-    public List<Sintomas> Sintomas;
-    public List<Alergia> Alergias;
+    [SerializeField] List<Sintomas> Sintomas;
+    [SerializeField] List<Alergia> Alergias;
 
     // Métodos de medicamento
     public bool TieneEfectosPositivos(Enfermedad enfermedad, out List<Sintomas> sintomasAfectados)

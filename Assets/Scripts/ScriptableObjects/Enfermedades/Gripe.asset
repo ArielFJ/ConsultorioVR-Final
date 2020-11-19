@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Gripe
   m_EditorClassIdentifier: 
   nombre: Gripe
-  SintomasVerdaderos: 070000000000000011000000
+  SintomasVerdaderos: 0700000000000000
   SintomasFalsos: 
   Medicamentos: []
