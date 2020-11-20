@@ -2643,6 +2643,12 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1133784652}
   m_Mesh: {fileID: 4300000, guid: 96d3d34cee015e64abf4cc8204442809, type: 3}
+--- !u!1 &1145893801 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6775428176520946448, guid: 07eb8bfa0b50158419617f36aee25f8d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1988615238}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1162562219
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5010,6 +5016,8 @@ MonoBehaviour:
     type: 3}
   Conversacion: {fileID: 797805570}
   DialogueController: {fileID: 2127892157}
+  Tos: {fileID: 1145893801}
+  Fiebre: {fileID: 1895177946}
 --- !u!114 &1867702253
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5029,6 +5037,12 @@ MonoBehaviour:
     m_Bits: 4294967295
   pointer: {fileID: 0}
   sortOrder: 0
+--- !u!1 &1895177946 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6775428176120550007, guid: 07eb8bfa0b50158419617f36aee25f8d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1988615238}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1976014729 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 31c72400c3eda7c40a8422f7644ed83a,
@@ -5094,6 +5108,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Sintoma
       objectReference: {fileID: 0}
+    - target: {fileID: 6775428175634676572, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6775428175844127160, guid: 07eb8bfa0b50158419617f36aee25f8d,
         type: 3}
       propertyPath: m_TagString
@@ -5138,6 +5157,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: Sintoma
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428176811963697, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7155471833618038177, guid: 07eb8bfa0b50158419617f36aee25f8d,
         type: 3}

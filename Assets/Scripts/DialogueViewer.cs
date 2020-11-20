@@ -14,6 +14,8 @@ public class DialogueViewer : MonoBehaviour
     [SerializeField] Button prefab_btnResponse;
     [SerializeField] TMPro.TextMeshProUGUI Conversacion;
     [SerializeField] DialogueController DialogueController;
+    public GameObject Tos;
+    public GameObject Fiebre;
     DialogueController controller;
 
     [DllImport("__Internal")]
@@ -24,14 +26,17 @@ public class DialogueViewer : MonoBehaviour
         controller = DialogueController;
         controller.onEnteredNode += OnNodeEntered;
         controller.InitializeDialogue();
-
+        Tos.GetComponent<RawImage>();
+        Fiebre.GetComponent<RawImage>();
         //Start the Dialogue
         controller.GetCurrentNode();
+        Tos.SetActive(true);
 
     }
 
     public static void KillAllChildren(UnityEngine.Transform parent)
     {
+        
         UnityEngine.Assertions.Assert.IsNotNull(parent);
         for (int childIndex = parent.childCount - 1; childIndex >= 0; childIndex--)
         {
@@ -58,6 +63,10 @@ public class DialogueViewer : MonoBehaviour
                 responceButton.onClick.AddListener(delegate { OnNodeSelected(currentChoiceIndex); });
             }
 
+        if (newNode.tags.Contains("Fiebre"))
+        {
+            Fiebre.SetActive(true);
+        }
         if (newNode.tags.Contains("END"))
         {
             Debug.Log("Termino Dialogo.");

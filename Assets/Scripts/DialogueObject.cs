@@ -52,8 +52,7 @@ public class DialogueObject
         private List<string> AlmacenPalabras = new List<string>();
         private string LineaDialogo;
         private Sintomas DialogoConvertidoASintoma;
-        public GameObject Tos = GameObject.FindGameObjectWithTag("Tos");
-        public GameObject Fiebre = GameObject.FindGameObjectWithTag("Fiebre");
+        
         string title;
         Dictionary<string, Node> nodes;
         string titleOfStartNode;
@@ -62,7 +61,9 @@ public class DialogueObject
         public Dialogue(TextAsset twineText)
         {
             nodes = new Dictionary<string, Node>();
+            
             ParseTwineText(twineText);
+            
         }
 
 
@@ -117,7 +118,7 @@ public class DialogueObject
                 string tags = tagsPresent
                     ? currLineText.Substring(titleEnd + 1, (endOfFirstLine - titleEnd) - 2)
                     : "";
-                CheckTaskboard(tags);
+                
 
                 // Extract Message Text & Responses
                 string messsageText = currLineText.Substring(endOfFirstLine, startOfResponses - endOfFirstLine).Trim();
@@ -168,7 +169,7 @@ public class DialogueObject
                 nodes[curNode.title] = curNode;
             }
         }
-
+        /*
         public void CheckTaskboard(string tag)
         {
 
@@ -177,7 +178,7 @@ public class DialogueObject
                 Tos.SetActive(true);
             }
            
-           /* LineaDialogo = tag;
+            LineaDialogo = tag;
             //DialogoConvertidoASintoma = (Sintomas)Enum.Parse(typeof(Sintomas), LineaDialogo, true);
             
             if (ListaSintomas.ToString().Contains(LineaDialogo))
@@ -194,10 +195,10 @@ public class DialogueObject
                     }
 
                 }
-            }*/
+            }
 
 
 
-        }
+        }*/
     }
 }
