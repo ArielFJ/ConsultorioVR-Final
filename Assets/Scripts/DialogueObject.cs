@@ -52,7 +52,8 @@ public class DialogueObject
         private List<string> AlmacenPalabras = new List<string>();
         private string LineaDialogo;
         private Sintomas DialogoConvertidoASintoma;
-        public GameObject[] ContenedorUISintomas= GameObject.FindGameObjectsWithTag("Sintoma");
+        public GameObject Tos = GameObject.FindGameObjectWithTag("Tos");
+        public GameObject Fiebre = GameObject.FindGameObjectWithTag("Fiebre");
         string title;
         Dictionary<string, Node> nodes;
         string titleOfStartNode;
@@ -171,7 +172,12 @@ public class DialogueObject
         public void CheckTaskboard(string tag)
         {
 
-            LineaDialogo = tag;
+            if (tag.Equals("Tos"))
+            {
+                Tos.SetActive(true);
+            }
+           
+           /* LineaDialogo = tag;
             //DialogoConvertidoASintoma = (Sintomas)Enum.Parse(typeof(Sintomas), LineaDialogo, true);
             
             if (ListaSintomas.ToString().Contains(LineaDialogo))
@@ -188,7 +194,9 @@ public class DialogueObject
                     }
 
                 }
-            }
+            }*/
+
+
 
         }
     }

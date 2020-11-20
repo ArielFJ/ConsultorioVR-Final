@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.43667546, g: 0.48427135, b: 0.5645225, a: 1}
+  m_IndirectSpecularColor: {r: 0.43667564, g: 0.48427135, b: 0.5645232, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -5119,10 +5119,20 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Sintoma
       objectReference: {fileID: 0}
+    - target: {fileID: 6775428176120550007, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Fiebre
+      objectReference: {fileID: 0}
     - target: {fileID: 6775428176158978764, guid: 07eb8bfa0b50158419617f36aee25f8d,
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428176520946448, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Tos
       objectReference: {fileID: 0}
     - target: {fileID: 6775428176629729211, guid: 07eb8bfa0b50158419617f36aee25f8d,
         type: 3}
