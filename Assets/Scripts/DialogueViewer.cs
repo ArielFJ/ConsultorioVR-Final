@@ -10,12 +10,14 @@ using TMPro;
 
 public class DialogueViewer : MonoBehaviour
 {
+    public TextMeshProUGUI nameText;
     [SerializeField] Transform parentOfResponses;
     [SerializeField] Button prefab_btnResponse;
     [SerializeField] TMPro.TextMeshProUGUI Conversacion;
     [SerializeField] DialogueController DialogueController;
     DialogueController controller;
 
+    Persona persona;
     [DllImport("__Internal")]
     private static extern void openPage(string url);
 
@@ -27,6 +29,15 @@ public class DialogueViewer : MonoBehaviour
 
         //Start the Dialogue
         controller.GetCurrentNode();
+<<<<<<< Updated upstream
+=======
+        Tos.SetActive(true);
+        persona = FindObjectOfType<Persona>();
+        if (persona) 
+        {
+            nameText.text = persona.Nombre;
+        }
+>>>>>>> Stashed changes
 
     }
 
