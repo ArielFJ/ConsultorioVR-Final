@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Porcentaje : MonoBehaviour
 {
-    private Slider slider; 
+    public Slider slider; 
    
     public float porciento=1;
     private void Awake()

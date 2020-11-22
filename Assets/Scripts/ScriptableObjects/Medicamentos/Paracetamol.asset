@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Paracetamol
   m_EditorClassIdentifier: 
   Nombre: Paracetamol
-  Sintomas: 
+  Sintomas: 0000000007000000
   Alergias: 06000000

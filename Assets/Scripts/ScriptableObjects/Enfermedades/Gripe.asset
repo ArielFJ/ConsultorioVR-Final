@@ -15,4 +15,6 @@ MonoBehaviour:
   nombre: Gripe
   SintomasVerdaderos: 0700000000000000
   SintomasFalsos: 
-  Medicamentos: []
+  Medicamentos:
+  - {fileID: 11400000, guid: 3b0b46f408571ad409cf79be9e6dda43, type: 2}
+  - {fileID: 11400000, guid: b8b21069db6e8b04db718ba1855651a5, type: 2}

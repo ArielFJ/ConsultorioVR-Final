@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Taskboard : MonoBehaviour
 {
@@ -8,19 +9,28 @@ public class Taskboard : MonoBehaviour
     //public List<Enfermedad> enfermedades = new List<Enfermedad>();
     Enfermedad gripe;
     public List<string> sintomasSeleccionados;
-    public int percentage;
+    private float percentage=0f;
+    public Slider Gripe;
+    public Slider Covid;
+    public Slider Fiebre;
+    public RawImage tos;
+    public RawImage fiebre;
 
     void Start()
     {
         gripe = new Enfermedad();
         sintomasSeleccionados = new List<string>();
-        percentage = 0;
+       
+       
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        CalculatePercentage();
+        MarcarCovid();
+        MarcarGripe();
+        MarcarFiebre();
     }
 
     private void CalculatePercentage()
@@ -43,17 +53,42 @@ public class Taskboard : MonoBehaviour
 
         //Recorre los sintomas verdaderos y los sintomas seleccionados por el jugador, los compara, y por cada vez que haya una coincidencia, se suma uno a la variable porcentaje
         //se divide entre el total de sintomas verdaderos y luego se multiplica por 100 para retornarlo como un entero.
-        for (int i = 0; i < gripe.SintomasVerdaderos.Count; i++)
+       
+                     
+    }
+    void MarcarGripe()
+    {
+        if (tos.gameObject.activeSelf)
         {
-            for (int j = 0; j < sintomasSeleccionados.Count; j++)
-            {
-                if (gripe.SintomasVerdaderos[i].ToString() == sintomasSeleccionados[j])
-                {
-                    percentage = ((percentage + 1) / gripe.SintomasVerdaderos.Count) * 100;
-                }
-            }
+            percentage = 50;
+            Gripe.value = percentage;
         }
-
+        else if (tos.gameObject.activeSelf)
+        {
+            percentage = 50;
+            Gripe.value = percentage;
+        }
+        else if (tos.gameObject.activeSelf && fiebre.gameObject.activeSelf)
+        {
+            percentage = 100;
+            Gripe.value = percentage;
+        }
+    }
+    void MarcarCovid()
+    {
+        if (tos.gameObject.activeSelf)
+        {
+            percentage = 50;
+            Covid.value = percentage;
+        }
+    }
+    void MarcarFiebre()
+    {
+        if (fiebre.gameObject.activeSelf)
+        {
+            percentage = 50;
+            Fiebre.value = percentage;
+        }
     }
 }
 
