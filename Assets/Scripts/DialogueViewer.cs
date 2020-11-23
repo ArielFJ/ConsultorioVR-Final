@@ -40,8 +40,7 @@ public class DialogueViewer : MonoBehaviour
     }
 
     private void Update()
-    {
-        //OnSintomaEncontrado?.Invoke("Gripe");
+    {        
     }
 
     public static void KillAllChildren(UnityEngine.Transform parent)
@@ -78,7 +77,7 @@ public class DialogueViewer : MonoBehaviour
             string nombreSintoma = go.name.Replace("Si", "");
             if (newNode.tags.Contains(nombreSintoma))
             {
-                // TODO: arreglar estadisticas
+                Debug.Log(nombreSintoma);
                 go.SetActive(true);
                 OnSintomaEncontrado?.Invoke(nombreSintoma);
             }
