@@ -15,52 +15,29 @@ public class DialogueViewer : MonoBehaviour
     [SerializeField] Button prefab_btnResponse;
     [SerializeField] TMPro.TextMeshProUGUI Conversacion;
     [SerializeField] DialogueController DialogueController;
-<<<<<<< Updated upstream
     public GameObject Tos;
     public GameObject Fiebre;
     public GameObject Gripe;
     public GameObject Covid;
-=======
-    public List<GameObject> sintomasEncontrados;
->>>>>>> Stashed changes
     DialogueController controller;
     Persona persona;
 
-<<<<<<< Updated upstream
     [DllImport("__Internal")]  
-=======
-    public Action<string> OnSintomaEncontrado;
-
-    List<GameObject> go = new List<GameObject>();
-
-    [DllImport("__Internal")]
->>>>>>> Stashed changes
     private static extern void openPage(string url);
 
     private void Start()
     {
-        OnSintomaEncontrado += EnfermedadManager.instance.CalcularPorcentaje;
-
-
         controller = DialogueController;
         controller.onEnteredNode += OnNodeEntered;
         controller.InitializeDialogue();
-        //Tos.GetComponent<RawImage>();
-        //Fiebre.GetComponent<RawImage>();
+        Tos.GetComponent<RawImage>();
+        Fiebre.GetComponent<RawImage>();
         //Start the Dialogue
         controller.GetCurrentNode();
-<<<<<<< Updated upstream
         Tos.SetActive(true);
         persona = FindObjectOfType<Persona>();
         if (persona) { nameText.text = persona.Nombre; }
-=======
->>>>>>> Stashed changes
 
-    }
-
-    private void Update()
-    {
-        //OnSintomaEncontrado?.Invoke("Gripe");
     }
 
     public static void KillAllChildren(UnityEngine.Transform parent)
@@ -92,16 +69,10 @@ public class DialogueViewer : MonoBehaviour
                 responceButton.onClick.AddListener(delegate { OnNodeSelected(currentChoiceIndex); });
             }
 
-        foreach(GameObject go in sintomasEncontrados)
+        if (newNode.tags.Contains("Fiebre"))
         {
-            string nombreSintoma = go.name.Replace("Si", "");
-            if (newNode.tags.Contains(nombreSintoma))
-            {
-                go.SetActive(true);
-                OnSintomaEncontrado?.Invoke(nombreSintoma);
-            }
+            Fiebre.SetActive(true);
         }
-<<<<<<< Updated upstream
         else if (newNode.tags.Contains("Gripe"))
         {
             Gripe.SetActive(true);
@@ -110,13 +81,9 @@ public class DialogueViewer : MonoBehaviour
         {
             Covid.SetActive(true);
         }
-=======
-
->>>>>>> Stashed changes
         if (newNode.tags.Contains("END"))
         {
             Debug.Log("Termino Dialogo.");
         }
-        go = new List<GameObject>();
     }
 }

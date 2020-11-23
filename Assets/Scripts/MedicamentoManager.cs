@@ -4,15 +4,10 @@ using UnityEngine;
 
 public class MedicamentoManager : MonoBehaviour
 {
-    public static MedicamentoManager instance;
 
     public List<Medicamento> medicamentos;
     public Persona paciente;
 
-    private void Awake()
-    {
-        instance = this;
-    }
 
     // Start is called before the first frame update
     void Start()

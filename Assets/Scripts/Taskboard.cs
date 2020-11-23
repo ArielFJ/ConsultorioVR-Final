@@ -28,10 +28,9 @@ public class Taskboard : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        /*MarcarCovid();
+        MarcarCovid();
         MarcarGripe();
-        MarcarFiebre();*/
-        MarcarSintomas();
+        MarcarFiebre();
     }
 
     private void CalculatePercentage()
@@ -57,15 +56,7 @@ public class Taskboard : MonoBehaviour
        
                      
     }
-
-    void MarcarSintomas()
-    {
-        Gripe.value = EnfermedadManager.instance.porcentajeEnfermedad["Gripe"];
-        Covid.value = EnfermedadManager.instance.porcentajeEnfermedad["COVID"];
-        Fiebre.value = EnfermedadManager.instance.porcentajeEnfermedad["Fiebre"];
-    }
-
-    /*void MarcarGripe()
+    void MarcarGripe()
     {
         if (tos.gameObject.activeSelf)
         {
@@ -77,8 +68,7 @@ public class Taskboard : MonoBehaviour
             percentage = 50;
             Gripe.value = percentage;
         }
-        
-        if (tos.gameObject.activeSelf && fiebre.gameObject.activeSelf)
+        else if (tos.gameObject.activeSelf && fiebre.gameObject.activeSelf)
         {
             percentage = 100;
             Gripe.value = percentage;
@@ -99,6 +89,6 @@ public class Taskboard : MonoBehaviour
             percentage = 50;
             Fiebre.value = percentage;
         }
-    }*/
+    }
 }
 

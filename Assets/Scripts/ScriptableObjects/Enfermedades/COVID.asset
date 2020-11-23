@@ -12,7 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bde41c052064df42964071514449757, type: 3}
   m_Name: COVID
   m_EditorClassIdentifier: 
-  nombre: COVID
-  SintomasVerdaderos: 000000000d0000000e000000
-  SintomasFalsos: 01000000040000000a0000000b00000007000000090000000c0000000200000006000000
-  Medicamentos: []
+  nombre: Gripe
+  SintomasVerdaderos: 000000000d0000000e0000000f00000007000000
+  SintomasFalsos: 

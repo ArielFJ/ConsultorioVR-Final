@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Gripe
   m_EditorClassIdentifier: 
   nombre: Gripe
-  SintomasVerdaderos: 070000000000000006000000
-  SintomasFalsos: 090000000e0000000a00000003000000080000000d00000011000000020000000f000000
+  SintomasVerdaderos: 0700000000000000
+  SintomasFalsos: 
   Medicamentos:
   - {fileID: 11400000, guid: 3b0b46f408571ad409cf79be9e6dda43, type: 2}
   - {fileID: 11400000, guid: b8b21069db6e8b04db718ba1855651a5, type: 2}
