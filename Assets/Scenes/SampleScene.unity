@@ -3756,6 +3756,25 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 349392826}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &1569196989
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569196987}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 88b425335c8c30a46a82d78116346028, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &1569196990
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4450,7 +4469,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 2
+  m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -5117,6 +5136,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e5b1f512529cb6468c8fed0f3605518, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nameText: {fileID: 1738879310}
   parentOfResponses: {fileID: 1832068022}
   prefab_btnResponse: {fileID: 1838380468896235410, guid: 02ff86d90362ca543a51abf49b676ac4,
     type: 3}
