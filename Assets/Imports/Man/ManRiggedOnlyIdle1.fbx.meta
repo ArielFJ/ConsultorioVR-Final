@@ -1,22 +1,18 @@
 fileFormatVersion: 2
-guid: c90728e162ed40041ae2b8add768001b
+guid: 7e2b9cd3d5e466d459717b755809e64d
 ModelImporter:
   serializedVersion: 20101
   internalIDToNameTable:
   - first:
-      74: 6903750635722757499
-    second: ManArmature|Idle
-  externalObjects:
+      74: -1557497091291638526
+    second: ManArmature|ManArmature|ManArmature|Idle|ManArmature|Idle
   - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material #195
-    second: {fileID: 2100000, guid: 6da8f3d6c07087d4389f46606bb26bab, type: 2}
+      74: 127471550969652170
+    second: ManArmature|ManArmature|ManArmature|Idle|ManArmature|Lose
   - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material #203
-    second: {fileID: 2100000, guid: 7a80edf8731cb864d8519b5bc16e4aea, type: 2}
+      74: 4194951319481230614
+    second: ManArmature|ManArmature|ManArmature|Idle|ManArmature|Win
+  externalObjects: {}
   materials:
     materialImportMode: 1
     materialName: 0
@@ -43,36 +39,7 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations:
-    - serializedVersion: 16
-      name: ManArmature|Idle
-      takeName: ManArmature|Idle
-      internalID: 0
-      firstFrame: 0
-      lastFrame: 118
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
+    clipAnimations: []
     isReadable: 0
   meshes:
     lODScreenPercentages: []
