@@ -5144,6 +5144,8 @@ MonoBehaviour:
   DialogueController: {fileID: 2127892157}
   Tos: {fileID: 1145893801}
   Fiebre: {fileID: 1895177946}
+  Gripe: {fileID: 0}
+  Covid: {fileID: 0}
 --- !u!114 &1867702253
 MonoBehaviour:
   m_ObjectHideFlags: 0

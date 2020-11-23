@@ -17,6 +17,8 @@ public class DialogueViewer : MonoBehaviour
     [SerializeField] DialogueController DialogueController;
     public GameObject Tos;
     public GameObject Fiebre;
+    public GameObject Gripe;
+    public GameObject Covid;
     DialogueController controller;
     Persona persona;
 
@@ -70,6 +72,14 @@ public class DialogueViewer : MonoBehaviour
         if (newNode.tags.Contains("Fiebre"))
         {
             Fiebre.SetActive(true);
+        }
+        else if (newNode.tags.Contains("Gripe"))
+        {
+            Gripe.SetActive(true);
+        }
+        else if (newNode.tags.Contains("Covid"))
+        {
+            Covid.SetActive(true);
         }
         if (newNode.tags.Contains("END"))
         {
