@@ -6,7 +6,7 @@ using static DialogueObject;
 public class DialogueController : MonoBehaviour
 {
 
-    [SerializeField] TextAsset twineText;
+    public DialogueRandomnizer RandomnizerObject;
     Dialogue curDialogue;
     Node curNode;
 
@@ -20,7 +20,7 @@ public class DialogueController : MonoBehaviour
 
     public void InitializeDialogue()
     {
-        curDialogue = new Dialogue(twineText);
+        curDialogue = new Dialogue(RandomnizerObject.Randomnizer());
         curNode = curDialogue.GetStartNode();
         onEnteredNode(curNode);
     }

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.43667564, g: 0.48427135, b: 0.5645232, a: 1}
+  m_IndirectSpecularColor: {r: 0.4366757, g: 0.48427194, b: 0.5645252, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3143,6 +3143,52 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1315223216
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1315223217}
+  - component: {fileID: 1315223218}
+  m_Layer: 0
+  m_Name: DialogueRandomnizer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1315223217
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1315223216}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.0067722, y: 1.0874503, z: 1.0249443}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1315223218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1315223216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c17e53b0aac976c45b9b8b7e2faeea5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Stories:
+  - {fileID: 4900000, guid: 39226c0f0f1ded0498f21c796ceb5794, type: 3}
+  - {fileID: 4900000, guid: f28f5f6052bc7d1419ed86bbf5d4a628, type: 3}
 --- !u!1 &1328474264 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6775428175081186768, guid: 07eb8bfa0b50158419617f36aee25f8d,
@@ -5692,7 +5738,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00677622dfd34d9489a4b7b6d0d7c12c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  twineText: {fileID: 4900000, guid: d406eb7e027cfa645ac8ecaa1f97c9ea, type: 3}
+  RandomnizerObject: {fileID: 1315223218}
 --- !u!4 &2127892158
 Transform:
   m_ObjectHideFlags: 0
