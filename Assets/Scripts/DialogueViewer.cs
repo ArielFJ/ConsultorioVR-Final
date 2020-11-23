@@ -10,39 +10,43 @@ using TMPro;
 
 public class DialogueViewer : MonoBehaviour
 {
-    public TextMeshProUGUI nameText;
     [SerializeField] Transform parentOfResponses;
     [SerializeField] Button prefab_btnResponse;
     [SerializeField] TMPro.TextMeshProUGUI Conversacion;
     [SerializeField] DialogueController DialogueController;
-    public GameObject Tos;
-    public GameObject Fiebre;
-    public GameObject Gripe;
-    public GameObject Covid;
+    public List<GameObject> sintomasEncontrados;
     DialogueController controller;
-    Persona persona;
 
-    [DllImport("__Internal")]  
+    public Action<string> OnSintomaEncontrado;
+
+    List<GameObject> go = new List<GameObject>();
+
+    [DllImport("__Internal")]
     private static extern void openPage(string url);
 
     private void Start()
     {
+        OnSintomaEncontrado += EnfermedadManager.instance.CalcularPorcentaje;
+
+
         controller = DialogueController;
         controller.onEnteredNode += OnNodeEntered;
         controller.InitializeDialogue();
-        Tos.GetComponent<RawImage>();
-        Fiebre.GetComponent<RawImage>();
+        //Tos.GetComponent<RawImage>();
+        //Fiebre.GetComponent<RawImage>();
         //Start the Dialogue
         controller.GetCurrentNode();
-        Tos.SetActive(true);
-        persona = FindObjectOfType<Persona>();
-        if (persona) { nameText.text = persona.Nombre; }
 
+    }
+
+    private void Update()
+    {
+        //OnSintomaEncontrado?.Invoke("Gripe");
     }
 
     public static void KillAllChildren(UnityEngine.Transform parent)
     {
-        
+
         UnityEngine.Assertions.Assert.IsNotNull(parent);
         for (int childIndex = parent.childCount - 1; childIndex >= 0; childIndex--)
         {
@@ -60,30 +64,30 @@ public class DialogueViewer : MonoBehaviour
     {
         Conversacion.text = newNode.text;
         KillAllChildren(parentOfResponses);
-            for (int i = newNode.responses.Count - 1; i >= 0; i--)
-            {
-                int currentChoiceIndex = i;
-                var response = newNode.responses[i];
-                var responceButton = Instantiate(prefab_btnResponse, parentOfResponses);
-                responceButton.GetComponentInChildren<TMPro.TextMeshProUGUI>().text = (response.displayText);
-                responceButton.onClick.AddListener(delegate { OnNodeSelected(currentChoiceIndex); });
-            }
+        for (int i = newNode.responses.Count - 1; i >= 0; i--)
+        {
+            int currentChoiceIndex = i;
+            var response = newNode.responses[i];
+            var responceButton = Instantiate(prefab_btnResponse, parentOfResponses);
+            responceButton.GetComponentInChildren<TMPro.TextMeshProUGUI>().text = (response.displayText);
+            responceButton.onClick.AddListener(delegate { OnNodeSelected(currentChoiceIndex); });
+        }
 
-        if (newNode.tags.Contains("Fiebre"))
+        foreach (GameObject go in sintomasEncontrados)
         {
-            Fiebre.SetActive(true);
+            string nombreSintoma = go.name.Replace("Si", "");
+            if (newNode.tags.Contains(nombreSintoma))
+            {
+                // TODO: arreglar estadisticas
+                go.SetActive(true);
+                OnSintomaEncontrado?.Invoke(nombreSintoma);
+            }
         }
-        else if (newNode.tags.Contains("Gripe"))
-        {
-            Gripe.SetActive(true);
-        }
-        else if (newNode.tags.Contains("Covid"))
-        {
-            Covid.SetActive(true);
-        }
+
         if (newNode.tags.Contains("END"))
         {
             Debug.Log("Termino Dialogo.");
         }
+        go = new List<GameObject>();
     }
 }

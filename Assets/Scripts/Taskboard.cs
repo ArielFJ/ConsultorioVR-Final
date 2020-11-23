@@ -9,7 +9,7 @@ public class Taskboard : MonoBehaviour
     //public List<Enfermedad> enfermedades = new List<Enfermedad>();
     Enfermedad gripe;
     public List<string> sintomasSeleccionados;
-    private float percentage=0f;
+    private float percentage = 0f;
     public Slider Gripe;
     public Slider Covid;
     public Slider Fiebre;
@@ -20,17 +20,18 @@ public class Taskboard : MonoBehaviour
     {
         gripe = new Enfermedad();
         sintomasSeleccionados = new List<string>();
-       
-       
-        
+
+
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        MarcarCovid();
+        /*MarcarCovid();
         MarcarGripe();
-        MarcarFiebre();
+        MarcarFiebre();*/
+        MarcarSintomas();
     }
 
     private void CalculatePercentage()
@@ -53,10 +54,18 @@ public class Taskboard : MonoBehaviour
 
         //Recorre los sintomas verdaderos y los sintomas seleccionados por el jugador, los compara, y por cada vez que haya una coincidencia, se suma uno a la variable porcentaje
         //se divide entre el total de sintomas verdaderos y luego se multiplica por 100 para retornarlo como un entero.
-       
-                     
+
+
     }
-    void MarcarGripe()
+
+    void MarcarSintomas()
+    {
+        Gripe.value = EnfermedadManager.instance.porcentajeEnfermedad["Gripe"];
+        Covid.value = EnfermedadManager.instance.porcentajeEnfermedad["COVID"];
+        Fiebre.value = EnfermedadManager.instance.porcentajeEnfermedad["Fiebre"];
+    }
+
+    /*void MarcarGripe()
     {
         if (tos.gameObject.activeSelf)
         {
@@ -68,7 +77,8 @@ public class Taskboard : MonoBehaviour
             percentage = 50;
             Gripe.value = percentage;
         }
-        else if (tos.gameObject.activeSelf && fiebre.gameObject.activeSelf)
+        
+        if (tos.gameObject.activeSelf && fiebre.gameObject.activeSelf)
         {
             percentage = 100;
             Gripe.value = percentage;
@@ -89,6 +99,6 @@ public class Taskboard : MonoBehaviour
             percentage = 50;
             Fiebre.value = percentage;
         }
-    }
+    }*/
 }
 
