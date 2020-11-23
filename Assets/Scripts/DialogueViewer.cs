@@ -10,6 +10,7 @@ using TMPro;
 
 public class DialogueViewer : MonoBehaviour
 {
+    public TextMeshProUGUI nameText;
     [SerializeField] Transform parentOfResponses;
     [SerializeField] Button prefab_btnResponse;
     [SerializeField] TMPro.TextMeshProUGUI Conversacion;
@@ -17,8 +18,9 @@ public class DialogueViewer : MonoBehaviour
     public GameObject Tos;
     public GameObject Fiebre;
     DialogueController controller;
+    Persona persona;
 
-    [DllImport("__Internal")]
+    [DllImport("__Internal")]  
     private static extern void openPage(string url);
 
     private void Start()
@@ -31,6 +33,8 @@ public class DialogueViewer : MonoBehaviour
         //Start the Dialogue
         controller.GetCurrentNode();
         Tos.SetActive(true);
+        persona = FindObjectOfType<Persona>();
+        if (persona) { nameText.text = persona.Nombre; }
 
     }
 
