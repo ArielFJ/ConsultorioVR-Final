@@ -7,7 +7,7 @@ Test
 :: UserStylesheet[stylesheet]
 
 
-:: Inicio[START Tos]
+:: Inicio[START Tos Gripe]
 Sí, mi nombre es Jeff y desde hace unos días siento una Tos que no me deja tranquilo/a.
 
 Exactamente cuánto tiempo lleva sucediendo?[[1]]

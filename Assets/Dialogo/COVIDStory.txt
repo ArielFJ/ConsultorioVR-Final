@@ -7,7 +7,7 @@ Test
 :: UserStylesheet[stylesheet]
 
 
-:: Inicio[START Tos]
+:: Inicio[START Tos Covid]
 Sí, mi nombre es ElFeo y desde hace unos días siento una COVIDISION que no me deja tranquilo/a.
 
 Exactamente cuánto tiempo lleva sucediendo?[[1]]
