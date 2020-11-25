@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class EnfermedadManager : MonoBehaviour
@@ -10,6 +11,8 @@ public class EnfermedadManager : MonoBehaviour
     public List<Enfermedad> enfermedades;
 
     public Dictionary<string, int> porcentajeEnfermedad;
+
+    [SerializeField] private Enfermedad enfermedadSeleccionada;
 
     private void Awake()
     {
@@ -42,6 +45,12 @@ public class EnfermedadManager : MonoBehaviour
                 }
             }
         }
+    }
+
+    public void SeleccionarEnfermedad(string nombreEnfermedad)
+    {
+        enfermedadSeleccionada = enfermedades.FirstOrDefault(e => e.nombre == nombreEnfermedad);
+        Debug.Log(enfermedadSeleccionada.nombre);
     }
 
 }
