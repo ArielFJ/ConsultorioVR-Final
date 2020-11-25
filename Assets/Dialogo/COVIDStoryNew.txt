@@ -7,11 +7,11 @@ Test
 :: UserStylesheet[stylesheet]
 
 
-:: Primer pedazo[START Tos Gripe]
-Hola doctor, mi nombre es Jeff y desde hace unos dias siento una tos que no me deja tranquilo.
+:: Primer pedazo[START Tos Covid]
+Hola doctor, mi nombre es Miguel y desde hace unos dias siento una gripe que no me deja tranquilo.
 
 Exactamente cuanto tiempo lleva sucediendo?[[sucediendo]]
-Ha tomado algo para la Tos?[[tomado]]
+Ha tomado algo para sus sintomas?[[tomado]]
 Que otros sintomas se siente?[[sintomas]]
 
 :: sucediendo
@@ -34,9 +34,15 @@ Alguna alergia de la que deba enterarme? [[enterarme]]
 Tiene mascotas en su casa de algun tipo? [[mascotas]]
 
 :: empezaran
-Estuve lavando el carro el fin de semana, ese dia hizo mucho frio y creo que fue cuando me empezaron los sintomas.
+Estuve haciendo las compras en el fin de semana, estaba lleno el supermercado y tuve que hacer mucha fila, tambien tome un taxi para regresar.
 
 Alguna alergia de la que tenga que enterarme? [[enterarme]]
+De casualidad escucho a alguien tosiendo durante el dia que pudo haber estado cerca de usted? [[escucho]]
+
+:: escucho
+Ahora que lo menciona, no puedo acordarme, pero me removi la mascarilla en el taxi, si sirve de algo.
+
+Gracias por confirmar, alguna alergia a medicamentos de la que deba enterarme? [[enterarme]]
 
 :: enterarme[Paracetamol Aspirina]
 Solo al Paracetamol y a la aspirina que pueda acordarme.
@@ -45,7 +51,9 @@ Solo al Paracetamol y a la aspirina que pueda acordarme.
 Es bueno saberlo, gracias por confirmar. [[end]]
 
 :: end[END]
-Double-click this passage to edit it.
+Ya puedes pasar a la etapa de diagnostico, a menos que quieras empezar de nuevo.
+
+Empezar [[Primer pedazo]]
 
 :: mascotas
 Si, tengo un perro y un gato en mi casa, pero no tengo alergias hacia ellos.
