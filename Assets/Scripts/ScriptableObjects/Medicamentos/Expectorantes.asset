@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: edd2d025ccc1efe4288a09bf321c1ec0, type: 3}
-  m_Name: Moringa
+  m_Name: Expectorantes
   m_EditorClassIdentifier: 
-  Nombre: Moringa
+  Nombre: Expectorantes
   Sintomas: 
   Alergias: 
