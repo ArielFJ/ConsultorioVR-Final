@@ -46,11 +46,13 @@ public class FaseResultado : MonoBehaviour
         });
 
         string[] nombreMedicamentos = MedicamentoManager.instance.medicamentosSeleccionados.Select(x => x.Nombre).ToArray();
+        List<GameObject> selectedMeds = new List<GameObject>();
         medicamentoSeleccionado.ForEach(medicamento =>
         {
             if (nombreMedicamentos.Contains(medicamento.name))
             {
                 medicamento.transform.GetChild(1).gameObject.SetActive(false);
+                selectedMeds.Add(medicamento);
             }
         });
 
@@ -65,29 +67,33 @@ public class FaseResultado : MonoBehaviour
         });
 
         GameObject aActivar = new GameObject();
-        foreach(GameObject medicamento in medicamentoSeleccionado)
+        foreach(GameObject medicamento in selectedMeds)
         {
             med = MedicamentoManager.instance.medicamentos.FirstOrDefault(m => m.Nombre == medicamento.name);
             if (MedicamentoManager.instance.CanPatientTakeMedicine(med) == (false, false))
             {
+                Debug.Log(med.Nombre);
+                Debug.Log("F");
                 aActivar = F;
-                return;
+                break;
             }
         }
 
         if(aActivar != F)
 		{
-            foreach (GameObject medicamento in medicamentoSeleccionado)
+            foreach (GameObject medicamento in selectedMeds)
             {
                 med = MedicamentoManager.instance.medicamentos.FirstOrDefault(m => m.Nombre == medicamento.name);
                 if (MedicamentoManager.instance.CanPatientTakeMedicine(med) == (true, false))
                 {
                     aActivar = C;
+                    Debug.Log("C");
                 }
                 else if (MedicamentoManager.instance.CanPatientTakeMedicine(med) == (true, true))
                 {
                     aActivar = A;
-                    return;
+                    Debug.Log("A");
+                    break;
                 }
             }
 		}
