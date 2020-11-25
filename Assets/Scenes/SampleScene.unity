@@ -3627,8 +3627,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Stories:
-  - {fileID: 4900000, guid: 39226c0f0f1ded0498f21c796ceb5794, type: 3}
-  - {fileID: 4900000, guid: f28f5f6052bc7d1419ed86bbf5d4a628, type: 3}
+  - {fileID: 4900000, guid: 436c657b551c5554eaa31fd556664e71, type: 3}
+  - {fileID: 4900000, guid: ddbe1bd9d598b6e40be49e008786cafa, type: 3}
 --- !u!1 &1335164776
 GameObject:
   m_ObjectHideFlags: 0
