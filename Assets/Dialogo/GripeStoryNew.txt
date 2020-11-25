@@ -45,7 +45,9 @@ Solo al Paracetamol y a la aspirina que pueda acordarme.
 Es bueno saberlo, gracias por confirmar. [[end]]
 
 :: end[END]
-Double-click this passage to edit it.
+Ya puedes pasar a la etapa de diagnostico, a menos que quieras empezar de nuevo.
+
+Empezar [[Primer pedazo]]
 
 :: mascotas
 Si, tengo un perro y un gato en mi casa, pero no tengo alergias hacia ellos.

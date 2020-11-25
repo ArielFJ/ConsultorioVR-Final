@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: COVID
   m_EditorClassIdentifier: 
   nombre: COVID
-  SintomasVerdaderos: 000000000d0000000e000000
+  SintomasVerdaderos: 000000000700000004000000
   SintomasFalsos: 
   Medicamentos: []

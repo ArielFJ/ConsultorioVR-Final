@@ -7,8 +7,8 @@ public class Taskboard : MonoBehaviour
 {
     // Start is called before the first frame update
     //public List<Enfermedad> enfermedades = new List<Enfermedad>();
-    Enfermedad gripe;
-    public List<string> sintomasSeleccionados;    
+/*    Enfermedad gripe;
+    public List<string> sintomasSeleccionados;    */
     public Slider Gripe;
     public Slider Covid;
     public Slider Fiebre;
