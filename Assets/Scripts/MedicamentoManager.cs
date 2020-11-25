@@ -11,7 +11,7 @@ public class MedicamentoManager : MonoBehaviour
     public List<Medicamento> medicamentos;
     public Persona paciente;
 
-    [SerializeField] private List<Medicamento> medicamentosSeleccionados;
+    [SerializeField] public List<Medicamento> medicamentosSeleccionados;
 
 	// Start is called before the first frame update
 
