@@ -30,8 +30,6 @@ public class FaseConsulta : MonoBehaviour
     {
         ListaSintomas = new List<Sintomas>();
         AlmacenPalabras = new List<Sintomas>();
-
-
     }
 
 
