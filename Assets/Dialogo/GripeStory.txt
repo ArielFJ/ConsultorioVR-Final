@@ -7,29 +7,38 @@ Test
 :: UserStylesheet[stylesheet]
 
 
-:: Inicio[START Tos Gripe]
-Sí, mi nombre es Jeff y desde hace unos días siento una Tos que no me deja tranquilo/a.
+:: Primer pedazo[START Tos Gripe]
+Hola doctor, mi nombre es Jeff y desde hace unos dias siento una tos que no me deja tranquilo.
 
-Exactamente cuánto tiempo lleva sucediendo?[[1]]
-Ha tomado algo para la Tos?[[2]]
-Que otros síntomas se siente?[[3]]
+Exactamente cuanto tiempo lleva sucediendo?[[sucediendo]]
+Ha tomado algo para la Tos?[[tomado]]
+Que otros sintomas se siente?[[sintomas]]
 
-:: 1
-Hace 10 Días.
-Gracias por la información. (Vuelta anterior)[[A]]
+:: sucediendo
+Desde alrededor de 5 dias para hoy.
 
-:: 2
-Solo Tos por ahora. / No he tomado nada.
-Entiendo. (Vuelta anterior)[[A]]
+Gracias por la informacion, algunos otros sintomas que se sienta?[[sintomas]]
+
+:: tomado
+No he tomado nada.
+
+Gracias por la informacion, algunos otros sintomas que se sienta?[[sintomas]]
+
+:: sintomas[Fiebre]
+Tambien me ha dado Fiebre  de manera intermitente.
+
+Entiendo. Que estaba haciendo antes de que empezaran los sintomas? [[empezaran]]
+
+:: empezaran
+Estuve lavando el carro el fin de semana, ese dia hizo mucho frio y creo que fue cuando me empezaron los sintomas.
+
+Alguna alergia de la que tenga que enterarme? [[enterarme]]
+
+:: enterarme[Paracetamol Aspirina]
+Solo al Paracetamol y a la aspirina que pueda acordarme.
 
 
-:: End[END]
+Es bueno saberlo, gracias por confirmar. [[end]]
+
+:: end[END]
 Double-click this passage to edit it.
-
-:: 3[Fiebre]
-También me ha dado Fiebre  de manera intermitente.
-Gracias por la información. (Vuelta anterior)[[A]]
-
-:: A
-Cree que puede ser algo serio, Doctor/a?
-No. [[End]]
