@@ -17,7 +17,14 @@ public class DialogueViewer : MonoBehaviour
     public List<GameObject> sintomasEncontrados;
     DialogueController controller;
 
-    public Action<string> OnSintomaEncontrado;
+    public static DialogueViewer instance;
+
+	private void Awake()
+	{
+        instance = this;
+	}
+
+	public Action<string> OnSintomaEncontrado;
 
     List<GameObject> go = new List<GameObject>();
 
@@ -29,14 +36,25 @@ public class DialogueViewer : MonoBehaviour
         OnSintomaEncontrado += EnfermedadManager.instance.CalcularPorcentaje;
 
 
-        controller = DialogueController;
+        /*controller = DialogueController;
+        controller.onEnteredNode += OnNodeEntered;
+        controller.InitializeDialogue();
+        //Tos.GetComponent<RawImage>();
+        //Fiebre.GetComponent<RawImage>();
+        //Start the Dialogue
+        controller.GetCurrentNode();*/
+
+    }
+
+    public void init(DialogueController c)
+	{
+        controller = c;
         controller.onEnteredNode += OnNodeEntered;
         controller.InitializeDialogue();
         //Tos.GetComponent<RawImage>();
         //Fiebre.GetComponent<RawImage>();
         //Start the Dialogue
         controller.GetCurrentNode();
-
     }
 
     private void Update()

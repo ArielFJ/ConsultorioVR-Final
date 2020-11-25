@@ -12,7 +12,7 @@ public class EnfermedadManager : MonoBehaviour
 
     public Dictionary<string, int> porcentajeEnfermedad;
 
-    [SerializeField] private Enfermedad enfermedadSeleccionada;
+    [SerializeField] public Enfermedad enfermedadSeleccionada;
 
     private void Awake()
     {

@@ -6,13 +6,20 @@ using UnityEngine;
 public class MedicamentoManager : MonoBehaviour
 {
 
+    public static MedicamentoManager instance; 
+
     public List<Medicamento> medicamentos;
     public Persona paciente;
 
     [SerializeField] private List<Medicamento> medicamentosSeleccionados;
 
-    // Start is called before the first frame update
-    void Start()
+	// Start is called before the first frame update
+
+	private void Awake()
+	{
+        instance = this;
+	}
+	void Start()
     {
         medicamentosSeleccionados = new List<Medicamento>();
     }
