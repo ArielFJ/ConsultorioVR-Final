@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7bde41c052064df42964071514449757, type: 3}
-  m_Name: COVID
+  m_Name: Resfriado
   m_EditorClassIdentifier: 
-  nombre: COVID
-  SintomasVerdaderos: 000000000d0000000e000000
+  nombre: Resfriado
+  SintomasVerdaderos: 
   SintomasFalsos: 
   Medicamentos: []

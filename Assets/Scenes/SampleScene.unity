@@ -6359,10 +6359,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 851210430}
     m_Modifications:
+    - target: {fileID: 6775428175005260647, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6775428175081186768, guid: 07eb8bfa0b50158419617f36aee25f8d,
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428175180835095, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6775428175213198519, guid: 07eb8bfa0b50158419617f36aee25f8d,
         type: 3}
@@ -6379,10 +6389,105 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Sintoma
       objectReference: {fileID: 0}
+    - target: {fileID: 6775428175573215339, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6775428175634676572, guid: 07eb8bfa0b50158419617f36aee25f8d,
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428175648665134, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428175648665134, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428175648665134, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 2121668810}
+    - target: {fileID: 6775428175648665134, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428175648665134, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: SeleccionarEnfermedad
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428175648665134, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: EnfermedadManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428175648665134, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428175648665134, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_StringArgument
+      value: COVID
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428175648665134, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428175795173477, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428175795173477, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428175795173477, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 2121668810}
+    - target: {fileID: 6775428175795173477, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428175795173477, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: SeleccionarEnfermedad
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428175795173477, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: EnfermedadManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428175795173477, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428175795173477, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_StringArgument
+      value: Resfriado
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428175795173477, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 6775428175844127160, guid: 07eb8bfa0b50158419617f36aee25f8d,
         type: 3}
@@ -6394,6 +6499,51 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6775428175917425225, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428175917425225, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428175917425225, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 2121668809}
+    - target: {fileID: 6775428175917425225, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428175917425225, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: ToggleMedicamento
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428175917425225, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: MedicamentoManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428175917425225, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428175917425225, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_StringArgument
+      value: Antihistaminicos
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428175917425225, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 6775428175922812708, guid: 07eb8bfa0b50158419617f36aee25f8d,
         type: 3}
       propertyPath: slider
@@ -6404,10 +6554,100 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Sintoma
       objectReference: {fileID: 0}
+    - target: {fileID: 6775428176042733110, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428176042733110, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428176042733110, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 2121668809}
+    - target: {fileID: 6775428176042733110, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428176042733110, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: ToggleMedicamento
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428176042733110, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: MedicamentoManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428176042733110, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428176042733110, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_StringArgument
+      value: Antitusigeno
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428176042733110, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 6775428176057102932, guid: 07eb8bfa0b50158419617f36aee25f8d,
         type: 3}
       propertyPath: m_TagString
       value: Sintoma
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428176079556195, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428176079556195, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428176079556195, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 2121668809}
+    - target: {fileID: 6775428176079556195, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428176079556195, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: ToggleMedicamento
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428176079556195, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: MedicamentoManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428176079556195, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428176079556195, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_StringArgument
+      value: Expectorantes
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428176079556195, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 6775428176087249563, guid: 07eb8bfa0b50158419617f36aee25f8d,
         type: 3}
@@ -6429,10 +6669,25 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Fiebre
       objectReference: {fileID: 0}
+    - target: {fileID: 6775428176126920743, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6775428176158978764, guid: 07eb8bfa0b50158419617f36aee25f8d,
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428176166583723, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428176301214222, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6775428176520946448, guid: 07eb8bfa0b50158419617f36aee25f8d,
         type: 3}
@@ -6449,10 +6704,260 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Sintoma
       objectReference: {fileID: 0}
-    - target: {fileID: 6775428176811963697, guid: 07eb8bfa0b50158419617f36aee25f8d,
+    - target: {fileID: 6775428176633817375, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428176673724367, guid: 07eb8bfa0b50158419617f36aee25f8d,
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428176751929831, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428176774160386, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428176774160386, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428176774160386, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 2121668809}
+    - target: {fileID: 6775428176774160386, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428176774160386, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: ToggleMedicamento
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428176774160386, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: MedicamentoManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428176774160386, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428176774160386, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_StringArgument
+      value: Ibuprofeno
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428176774160386, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428176787084983, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428176811963697, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428176866387271, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428176983774760, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428176983774760, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428176983774760, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 2121668809}
+    - target: {fileID: 6775428176983774760, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428176983774760, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: ToggleMedicamento
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428176983774760, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: MedicamentoManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428176983774760, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428176983774760, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_StringArgument
+      value: Paracetamol
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428176983774760, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428177006360419, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428177006360419, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428177006360419, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 2121668809}
+    - target: {fileID: 6775428177006360419, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428177006360419, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: ToggleMedicamento
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428177006360419, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: MedicamentoManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428177006360419, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428177006360419, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_StringArgument
+      value: Aspirina
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428177006360419, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428177007034355, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428177007034355, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428177007034355, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 2121668810}
+    - target: {fileID: 6775428177007034355, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428177007034355, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: SeleccionarEnfermedad
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428177007034355, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: EnfermedadManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428177007034355, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428177007034355, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_StringArgument
+      value: Gripe
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428177007034355, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428177026508094, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428177026508094, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428177026508094, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 2121668809}
+    - target: {fileID: 6775428177026508094, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428177026508094, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: hola
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428177026508094, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: MedicamentoManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428177026508094, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428177026508094, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_StringArgument
+      value: fsfhdjs
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775428177026508094, guid: 07eb8bfa0b50158419617f36aee25f8d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 7155471833618038177, guid: 07eb8bfa0b50158419617f36aee25f8d,
         type: 3}
@@ -6834,8 +7339,11 @@ MonoBehaviour:
   - {fileID: 11400000, guid: ac1bc900b614dfd43b2727b4d4f51855, type: 2}
   - {fileID: 11400000, guid: 3b0b46f408571ad409cf79be9e6dda43, type: 2}
   - {fileID: 11400000, guid: b8b21069db6e8b04db718ba1855651a5, type: 2}
-  - {fileID: 11400000, guid: 8f2c9894865133a49a592594fdccf4ab, type: 2}
+  - {fileID: 11400000, guid: 34880aac11da90d4ea077b76b6da45e1, type: 2}
+  - {fileID: 11400000, guid: ab9917ed3f1642444bb636c028e7611b, type: 2}
+  - {fileID: 11400000, guid: 36c724446a694b946b565dfd48b2eee7, type: 2}
   paciente: {fileID: 1569196992}
+  medicamentosSeleccionados: []
 --- !u!114 &2121668810
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6851,6 +7359,8 @@ MonoBehaviour:
   enfermedades:
   - {fileID: 11400000, guid: 69d62f5002176d8419e8d0518680fb6f, type: 2}
   - {fileID: 11400000, guid: a232a90645ad2364ab648a356b46b0fb, type: 2}
+  - {fileID: 11400000, guid: 0463bb0a2385e4a4392949c6650e045a, type: 2}
+  enfermedadSeleccionada: {fileID: 0}
 --- !u!1 &2127892156
 GameObject:
   m_ObjectHideFlags: 0
