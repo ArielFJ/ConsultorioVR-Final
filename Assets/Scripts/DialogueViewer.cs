@@ -24,17 +24,15 @@ public class DialogueViewer : MonoBehaviour
         instance = this;
 	}
 
-	public Action<string> OnSintomaEncontrado;
+	public static Action<string> OnSintomaEncontrado;
 
-    List<GameObject> go = new List<GameObject>();
+    //List<GameObject> go = new List<GameObject>();
 
     [DllImport("__Internal")]
     private static extern void openPage(string url);
 
     private void Start()
-    {
-        OnSintomaEncontrado += EnfermedadManager.instance.CalcularPorcentaje;
-
+    {        
 
         /*controller = DialogueController;
         controller.onEnteredNode += OnNodeEntered;
@@ -89,10 +87,11 @@ public class DialogueViewer : MonoBehaviour
             responceButton.GetComponentInChildren<TMPro.TextMeshProUGUI>().text = (response.displayText);
             responceButton.onClick.AddListener(delegate { OnNodeSelected(currentChoiceIndex); });
         }
-
+        
         foreach (GameObject go in sintomasEncontrados)
         {
             string nombreSintoma = go.name.Replace("Si", "");
+            //Debug.Log(nombreSintoma);
             if (newNode.tags.Contains(nombreSintoma))
             {
                 Debug.Log(nombreSintoma);
@@ -105,6 +104,6 @@ public class DialogueViewer : MonoBehaviour
         {
             Debug.Log("Termino Dialogo.");
         }
-        go = new List<GameObject>();
+        //go = new List<GameObject>();
     }
 }

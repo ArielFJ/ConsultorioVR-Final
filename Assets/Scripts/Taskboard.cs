@@ -27,7 +27,7 @@ public class Taskboard : MonoBehaviour
 
 
     void MarcarSintomas()
-    {
+    {        
         Gripe.value = EnfermedadManager.instance.porcentajeEnfermedad["Gripe"];
         Covid.value = EnfermedadManager.instance.porcentajeEnfermedad["COVID"];
         Fiebre.value = EnfermedadManager.instance.porcentajeEnfermedad["Fiebre"];
