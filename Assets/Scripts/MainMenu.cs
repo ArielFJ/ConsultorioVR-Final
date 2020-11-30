@@ -31,4 +31,6 @@ public class MainMenu : MonoBehaviour
         DialogueViewer.instance.init(dialogueController.GetComponent<DialogueController>());
         //mainMenu.SetActive(false);
 	}
+
+
 }

@@ -17,7 +17,8 @@ public class FaseResultado : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        persona = Persona.instance;
+        GetSelectedOptions();
     }
 
     // Update is called once per frame

@@ -17,8 +17,20 @@ public class MedicamentoManager : MonoBehaviour
 
 	private void Awake()
 	{
-        instance = this;
-	}
+        /*if (instance == null)
+            instance = this;
+        DontDestroyOnLoad(this);*/
+        if (instance == null)
+        {
+            instance = this;
+        }
+        else
+        {
+            Destroy(instance);
+            instance = this;
+        }
+        DontDestroyOnLoad(this);
+    }
 	void Start()
     {
         medicamentosSeleccionados = new List<Medicamento>();

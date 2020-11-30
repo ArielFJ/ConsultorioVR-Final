@@ -7,6 +7,8 @@ using UnityEngine;
 public class Persona : MonoBehaviour
 {
 
+    public static Persona instance;
+
     public List<Alergia> alergiasCliente;
     public string Nombre = "Jose Lopez";
     public int Edad = 25;
@@ -15,6 +17,11 @@ public class Persona : MonoBehaviour
     public string Altura = "1.80m";
     public string TipoSangre = "+A";
     public Enfermedad Enfermedad;
+
+    private void Awake()
+    {
+        instance = this;
+    }
 
     private void Start()
     {

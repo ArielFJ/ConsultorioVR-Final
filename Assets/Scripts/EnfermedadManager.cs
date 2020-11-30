@@ -16,7 +16,16 @@ public class EnfermedadManager : MonoBehaviour
 
     private void Awake()
     {
-        instance = this;
+        if (instance == null)
+        {
+            instance = this;
+        }
+        else
+        {
+            Destroy(instance);
+            instance = this;
+        }
+        DontDestroyOnLoad(this);
     }
 
     // Start is called before the first frame update
