@@ -15,6 +15,7 @@ public class DialogueViewer : MonoBehaviour
     [SerializeField] TMPro.TextMeshProUGUI Conversacion;
     [SerializeField] DialogueController DialogueController;
     public List<GameObject> sintomasEncontrados;
+    private List<string> nombresSintomasEncontrados;
     DialogueController controller;
 
     public static DialogueViewer instance;
@@ -92,11 +93,14 @@ public class DialogueViewer : MonoBehaviour
         {
             string nombreSintoma = go.name.Replace("Si", "");
             //Debug.Log(nombreSintoma);
-            if (newNode.tags.Contains(nombreSintoma))
+            if (newNode.tags.Contains(nombreSintoma) && !nombresSintomasEncontrados.Contains(nombreSintoma))
             {
                 Debug.Log(nombreSintoma);
                 go.SetActive(true);
                 OnSintomaEncontrado?.Invoke(nombreSintoma);
+
+                // Evita que un mismo síntoma se añada más de una vez al reiniciar diálogo
+                nombresSintomasEncontrados.Add(nombreSintoma); 
             }
         }
 
